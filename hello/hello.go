@@ -14,7 +14,7 @@ func main() {
 
 	fmt.Println("Hello, World!")
 
-	message, err := greetings.Hello("")
+	message, err := greetings.Hello("khalil")
 	// Request a greeting message and print out a quote.
 	// if an error was returned, print it to the console and
 	// exit
